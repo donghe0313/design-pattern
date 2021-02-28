@@ -12,18 +12,16 @@
 装饰器模式
 适配器模式
 
-1.知道这个设计模式的好处是什么？
-2.知道这个设计模式的应用场景是什么？
+#### 单例模式中，不加锁的线程安全懒汉：
 
-设计模式是一套被反复使用的、多数人知晓的、经过分类编目的、代码设计经验的总结。
-使用设计模式是为了重用代码、让代码更容易被他人理解、保证代码可靠性。
+如图所示：
 
-在 1994 年，由 Erich Gamma、Richard Helm、Ralph Johnson 和 
-John Vlissides 四人合著出版了一本名为
-Design Patterns - Elements of Reusable Object-Oriented Software
-（中文译名：设计模式 - 可复用的面向对象软件元素）的书，该书首次提到了软件开发
-中设计模式的概念。四位作者合称 GOF（四人帮，全拼 Gang of Four）。他们所提出
-的设计模式主要是基于以下的面向对象设计原则：
+函数静态局部变量的初始化，在汇编指令上已经自动添加线程互斥指令了
 
-1.对接口编程而不是对实现编程。
-2.优先使用对象组合而不是继承。
+![1](/Users/donghe/Documents/图论/施磊/c++高级/视频课堂代码仓库/设计模式/git/design-pattern/1.png)
+
+![2](/Users/donghe/Documents/图论/施磊/c++高级/视频课堂代码仓库/设计模式/git/design-pattern/2.png)
+
+
+
+
