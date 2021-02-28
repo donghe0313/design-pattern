@@ -18,9 +18,9 @@
 
 函数静态局部变量的初始化，在汇编指令上已经自动添加线程互斥指令了
 
-![1](/Users/donghe/Documents/图论/施磊/c++高级/视频课堂代码仓库/设计模式/git/design-pattern/1.png)
+![1](https://github.com/donghe0313/design-pattern/blob/main/1.png)
 
-![2](/Users/donghe/Documents/图论/施磊/c++高级/视频课堂代码仓库/设计模式/git/design-pattern/2.png)
+![2](https://github.com/donghe0313/design-pattern/blob/main/2.png)
 
 
 
